@@ -4,11 +4,9 @@
 
 * webpack使用
 * ES6基础语法学习
-* ...
+* Scss学习 & 使用
 
 ## webpack使用
-
-## lesson 1
 
 ### 创建项目
 
