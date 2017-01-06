@@ -6,8 +6,9 @@
 * ES6基础语法学习
 * Scss学习 & 使用
 
-## webpack使用
+## 项目初始化
 
-### 创建项目
+* Foo-Bar
 
-### 安装webpack
+## Wiki
+[js-learn.wiki](https://github.com/SBaof/js-learn/wiki)
