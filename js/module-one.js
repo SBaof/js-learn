@@ -1,1 +1,4 @@
-console.log('current file is module-one.js...');
+var $ = require('jquery');
+
+$('h1').html('Bar-Foo');
+
