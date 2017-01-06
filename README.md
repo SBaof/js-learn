@@ -1,4 +1,4 @@
-# NOTE
+# Note
 
 * webpack使用
 * ES6基础语法学习
