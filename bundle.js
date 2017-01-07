@@ -8838,7 +8838,6 @@
 	
 	exports.default = {
 		data: function data() {
-			debugger;
 			return {
 				message: "If I rest,I rust!"
 			};
@@ -19479,7 +19478,7 @@
 	
 	
 	// module
-	exports.push([module.id, "html {\n\tpadding: 0;\n\tmargin: 0;\n}\n\nbody {\n\tbackground-color: #eed;\n}\n\n.container {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n}\n\n.bar {\n    color: #636b6f;\n    font-family: 'Raleway', sans-serif;\n    font-weight: 100;\n    color: pink;\n}\n\n", ""]);
+	exports.push([module.id, "html {\n\tpadding: 0;\n\tmargin: 0;\n}\n\nbody {\n\tbackground-color: #eed;\n}\n\n.container {\n\tdisplay: flex;\n\tjustify-content: center;\n\talign-items: center;\n\theight: 100vh;\n}\n\n.foo {\n\ttext-align: center;\n}\n\n.bar {\n    color: #636b6f;\n    /* font-family: 'Raleway', sans-serif; */\n    font-family: \"freight-text-pro\";\n    font-weight: 100;\n    color: pink;\n}\n\n", ""]);
 	
 	// exports
 
