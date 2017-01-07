@@ -14,6 +14,10 @@ body {
 	height: 100vh;
 }
 
+.foo {
+	text-align: center;
+}
+
 .bar {
     color: #636b6f;
     font-family: 'Raleway', sans-serif;
