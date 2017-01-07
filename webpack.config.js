@@ -3,5 +3,22 @@ module.exports = {
 	entry: "./js/entry.js",
 	output: {
 		filename: "bundle.js"
-	}
+	},
+ 	module: {
+        loaders: [
+            {
+                test: /\.css$/,
+                loader: "style!css"
+            },
+            {
+            	test: /\.js$/,
+            	loader: "babel",
+            	exclude: /node_modules/
+            }
+        ]
+  	},
+  	babel: {
+  		presets: ['es2015', 'stage-0'],
+  		plugins: ['transform-runtime']
+  	}
 };
